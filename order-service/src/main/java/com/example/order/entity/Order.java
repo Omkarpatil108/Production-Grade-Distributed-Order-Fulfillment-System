@@ -18,7 +18,7 @@ import java.util.UUID;
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
-    private UUID orderId;
+    private UUID Id;
 
     @Enumerated(EnumType.STRING)
     private OrderStatus status;
